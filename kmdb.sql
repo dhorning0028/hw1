@@ -1,6 +1,9 @@
 DROP TABLE IF EXISTS movies;
 DROP TABLE IF EXISTS movie;
 DROP TABLE IF EXISTS top_cast;
+DROP TABLE IF EXISTS actor_movies;
+DROP TABLE IF EXISTS director_movies;
+DROP TABLE IF EXISTS movie_characters;
 
 CREATE TABLE movies (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -90,12 +93,22 @@ VALUES ("The Dark Night Rises", "Anne Hathaway", "Selina Kyle")
 
 CREATE TABLE actor_movies (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    actor_id INTEGER,
-    movie TEXT
+    movie_id INTEGER,
+    movie TEXT,
+    actor_id INTEGER
+    );
+
+CREATE TABLE director_movies (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    movie_id INTEGER,
+    director TEXT
 );
 
-SELECT movies.movie, top_cast.actor, top_cast.year_released
-FROM top_cast INNER JOIN movies ON actor.
+CREATE TABLE movie_characters (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    movie_id INTEGER,
+    character TEXT
+);
 
 .print "Movies"
 .print "======"
