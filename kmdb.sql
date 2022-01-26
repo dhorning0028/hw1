@@ -87,9 +87,17 @@ INSERT INTO top_cast (movie, actor, character)
 VALUES ("The Dark Night Rises", "Anne Hathaway", "Selina Kyle")
 ;
 
+.print "Movies"
+.print "======"
+.print ""
 
+SELECT * FROM movies;
 
+.print ""
+.print "Top Cast"
+.print "========"
+.print ""
 
-SELECT * FROM top_cast
+SELECT * FROM top_cast;
 
 
