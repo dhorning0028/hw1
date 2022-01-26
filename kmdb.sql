@@ -31,6 +31,63 @@ INSERT INTO top_cast (movie, actor, character)
 VALUES ("Batman Begins", "Christian Bale", "Bruce Wayne")
 ;
 
+INSERT INTO top_cast (movie, actor, character)
+VALUES ("Batman Begins", "Michael Cain", "Alfred")
+;
+
+INSERT INTO top_cast (movie, actor, character)
+VALUES ("Batman Begins", "Liam Neeson", "Ra's Al Ghul")
+;
+
+INSERT INTO top_cast (movie, actor, character)
+VALUES ("Batman Begins", "Katie Holmes", "Rachel Dawes")
+;
+
+INSERT INTO top_cast (movie, actor, character)
+VALUES ("Batman Begins", "Gary Oldman", "Commissioner Gordon")
+;
+
+INSERT INTO top_cast (movie, actor, character)
+VALUES ("The Dark Night", "Christian Bale", "Bruce Wayne")
+;
+
+INSERT INTO top_cast (movie, actor, character)
+VALUES ("The Dark Night", "Heath Ledger", "Joker")
+;
+
+INSERT INTO top_cast (movie, actor, character)
+VALUES ("The Dark Night", "Aaron Eckhart", "Harvey Dent")
+;
+
+INSERT INTO top_cast (movie, actor, character)
+VALUES ("The Dark Night", "Michael Caine", "Alfred")
+;
+
+INSERT INTO top_cast (movie, actor, character)
+VALUES ("The Dark Night", "Maggie Gyllenhaal", "Rachel Dawes")
+;
+
+INSERT INTO top_cast (movie, actor, character)
+VALUES ("The Dark Night Rises", "Christian Bale", "Bruce Wayne")
+;
+
+INSERT INTO top_cast (movie, actor, character)
+VALUES ("The Dark Night Rises", "Gary Oldman", "Commissioner Gordon")
+;
+
+INSERT INTO top_cast (movie, actor, character)
+VALUES ("The Dark Night Rises", "Tom Hardy", "Bane")
+;
+
+INSERT INTO top_cast (movie, actor, character)
+VALUES ("The Dark Night Rises", "Joseph Gordon-Levitt", "John Blake")
+;
+
+INSERT INTO top_cast (movie, actor, character)
+VALUES ("The Dark Night Rises", "Anne Hathaway", "Selina Kyle")
+;
+
+
 
 
 SELECT * FROM top_cast
