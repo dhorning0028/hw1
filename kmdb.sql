@@ -1,4 +1,5 @@
 DROP TABLE IF EXISTS movies;
+DROP TABLE IF EXISTS movie;
 DROP TABLE IF EXISTS top_cast;
 
 CREATE TABLE movies (
@@ -16,7 +17,7 @@ CREATE TABLE top_cast (
 );
 
 INSERT INTO movies (title, year_released, MPAA_rating, director)
-VALUES ("Batman Begins", "2005", "Christopher Nolan", "PG-13")
+VALUES ("Batman Begins", "2005", "PG-13", "Christopher Nolan")
 ;
 
 INSERT INTO movies (title, year_released, MPAA_rating, director)
@@ -87,6 +88,15 @@ INSERT INTO top_cast (movie, actor, character)
 VALUES ("The Dark Night Rises", "Anne Hathaway", "Selina Kyle")
 ;
 
+CREATE TABLE actor_movies (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    actor_id INTEGER,
+    movie TEXT
+);
+
+SELECT movies.movie, top_cast.actor, top_cast.year_released
+FROM top_cast INNER JOIN movies ON actor.
+
 .print "Movies"
 .print "======"
 .print ""
@@ -100,4 +110,4 @@ SELECT * FROM movies;
 
 SELECT * FROM top_cast;
 
-
+ 
