@@ -100,13 +100,13 @@ CREATE TABLE actor_movies (
 
 CREATE TABLE director_movies (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    movie_id INTEGER,
+    director_id INTEGER,
     director TEXT
 );
 
 CREATE TABLE movie_characters (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    movie_id INTEGER,
+    character_id INTEGER,
     character TEXT
 );
 
